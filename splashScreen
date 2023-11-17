@@ -1,0 +1,13 @@
+var splashScreen = function(){
+    currentScene = 1;
+    background(120, 74, 74);
+    textSize(35);
+    text("BRICK BREAKER", 55,70);
+    textSize(20);
+    text("Your goal for this game is to get rid of all the blocks! Using your mouse to control the bottom block, bounce the ball onto the bricks above to achieve your goal!", 17,113,368,120);
+    btn1.draw();
+
+    
+    drawBitmoji(245, 231, 130);
+    DrawBitmoji();
+};
